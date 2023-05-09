@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Learning_TinyWebServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Learning_TinyWebServer">
+				<Option output="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Learning_TinyWebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/lock"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TinyWebServer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Learning_TinyWebServer/fast">
+				<Option output="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Learning_TinyWebServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/lock"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Learning_TinyWebServer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/http/http_conn.h">
+			<Option target="Learning_TinyWebServer"/>
+		</Unit>
+		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/lock/locker.h">
+			<Option target="Learning_TinyWebServer"/>
+		</Unit>
+		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/log/block_queue.h">
+			<Option target="Learning_TinyWebServer"/>
+		</Unit>
+		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/log/log.h">
+			<Option target="Learning_TinyWebServer"/>
+		</Unit>
+		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/main.cpp">
+			<Option target="Learning_TinyWebServer"/>
+		</Unit>
+		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/test.cpp">
+			<Option target="Learning_TinyWebServer"/>
+		</Unit>
+		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

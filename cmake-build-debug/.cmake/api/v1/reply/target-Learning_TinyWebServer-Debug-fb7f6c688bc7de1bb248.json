@@ -42,17 +42,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -fcolor-diagnostics"
-				},
-				{
-					"fragment" : "-std=gnu++14"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/bytedance/Remote_C++_Project/Learning_TinyWebServer/lock"
+					"path" : "/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/lock"
 				}
 			],
 			"language" : "CXX",
@@ -101,7 +98,9 @@
 			"sourceIndexes" : 
 			[
 				0,
-				3
+				3,
+				4,
+				5
 			]
 		},
 		{
@@ -135,6 +134,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "http/http_conn.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "log/log.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "log/block_queue.h",
 			"sourceGroupIndex" : 0
 		}
 	],

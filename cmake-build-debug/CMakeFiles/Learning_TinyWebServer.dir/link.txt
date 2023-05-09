@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Learning_TinyWebServer.dir/test.cpp.o CMakeFiles/Learning_TinyWebServer.dir/main.cpp.o -o Learning_TinyWebServer 

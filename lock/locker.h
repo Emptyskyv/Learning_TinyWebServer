@@ -8,20 +8,19 @@
 #include <exception>
 #include <pthread.h>
 #include <semaphore.h>
-#include <semaphore>
 
 class sem {
 private:
     sem_t m_sem;
 public:
     sem() {
-        if (sem_open("m_sem", O_CREAT|O_EXCL, S_IRWXU, 0) != 0) {
+        if (sem_init(&m_sem, 0, 0) != 0) {
             throw std::exception();
         }
     }
 
     sem(int num) {
-        if (sem_open("m_sem", O_CREAT|O_EXCL, S_IRWXU, num) != 0) {
+        if (sem_init(&m_sem, 0, num) != 0) {
             throw std::exception();
         }
     }
@@ -88,6 +87,12 @@ public:
 
     bool signal() {
         return pthread_cond_signal(&m_cond) == 0;
+    }
+
+    bool timewait(pthread_mutex_t* m_mutex, timespec t) {
+        int ret = pthread_cond_timedwait(&m_cond, m_mutex, &t);
+
+        return ret == 0;
     }
 
     bool broadcast() {
