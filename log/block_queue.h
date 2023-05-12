@@ -27,13 +27,13 @@ private:
     int m_back;
 
 public:
-    block_queue(int max_size = 10000) {
+    block_queue(int max_size = 1000) {
         if (max_size <= 0) {
             exit(-1);
         }
 
         m_max_size = max_size;
-        m_array = new vector<T>(max_size);
+        m_array.resize(max_size);
         m_size = 0;
         m_front = 0;
         m_back = -1;
@@ -173,7 +173,7 @@ public:
         item = m_array[m_front];
         m_size--;
         m_mutex.unlock();
-        
+
         return true;
     }
 };
