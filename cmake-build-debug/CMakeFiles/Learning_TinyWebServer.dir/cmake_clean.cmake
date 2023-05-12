@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Learning_TinyWebServer.dir/log/log.cpp.o"
+  "CMakeFiles/Learning_TinyWebServer.dir/log/log.cpp.o.d"
   "CMakeFiles/Learning_TinyWebServer.dir/main.cpp.o"
   "CMakeFiles/Learning_TinyWebServer.dir/main.cpp.o.d"
   "CMakeFiles/Learning_TinyWebServer.dir/test.cpp.o"

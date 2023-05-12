@@ -95,6 +95,9 @@
 		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/log/block_queue.h">
 			<Option target="Learning_TinyWebServer"/>
 		</Unit>
+		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/log/log.cpp">
+			<Option target="Learning_TinyWebServer"/>
+		</Unit>
 		<Unit filename="/data00/home/chenpengxu.emptysky/Remote_C++_Project/Learning_TinyWebServer/log/log.h">
 			<Option target="Learning_TinyWebServer"/>
 		</Unit>
